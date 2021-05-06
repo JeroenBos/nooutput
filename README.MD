@@ -2,9 +2,10 @@ This repo demonstrates a vscode usability issue/bug.
 
 To reproduce:
 - clone this repo
-- debug the configuration under `launch.json`
+- Enable breaking on Caught and Uncaught Exceptions
+- debug (the only configuration under `launch.json`)
 - when the exception is thrown:
-  - open `main.py`
+  - open `main.js`
   - right click on `GotoDefinitionOnThis` on the first line
   - select goto definition
 

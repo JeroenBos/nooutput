@@ -1,11 +1,15 @@
 {
+    "version": "0.2.0",
     "configurations": [
         {
-            "name": "VSCode jump bug",
-            "type": "python",
+            "type": "pwa-node",
             "request": "launch",
-            "program": "${workspaceFolder}/main.py",
-            "console": "internalConsole",
-        },
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/main.js",
+
+        }
     ]
 }
